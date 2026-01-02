@@ -49,7 +49,7 @@ export class ThemeHelper {
 
 }
 
-export const useThemeDetector = (forceInit: boolean | undefined = undefined) => {
+export const useThemeDetector = (forceInit: boolean | undefined = undefined) => { // react flavor and react usage.
 
     console.log(`[TMD] >>> INIT theme detector by llr. ${localStorage.theme} using force init: ${forceInit} dark/light/unset. `);
 
